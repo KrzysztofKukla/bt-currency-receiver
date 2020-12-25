@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: bt-currency-receiver
+  #log tracing
+  zipkin:
+    enabled: false
+  mongodb:
+    port: 0 #random port
+    host: localhost
+
+server:
+  port: 8083
+
+eureka:
+  client:
+    enabled: false
+

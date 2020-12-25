@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    discovery:
+      enabled: true
+    config:
+      discovery:
+        #application name of config-server to locate config server by eureka discovery
+        service-id: bt-config-server

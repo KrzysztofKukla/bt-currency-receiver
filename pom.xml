@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>pl.kukla.krzys.bluetrade</groupId>
 		<artifactId>bt-common-bom</artifactId>
-		<version>00.05.10-SNAPSHOT</version>
+		<version>00.05.14-SNAPSHOT</version>
 	</parent>
 
 	<artifactId>bt-currency-receiver</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>00.00.02-SNAPSHOT</version>
 	<name>bt-currency-receiver</name>
+
 	<description>Service allows to receive values</description>
 
 	<properties>
-		<bt-model.version>00.01.01-SNAPSHOT</bt-model.version>
+		<bt-model.version>00.01.10-SNAPSHOT</bt-model.version>
 	</properties>
 
 	<dependencies>
@@ -28,10 +29,10 @@
 			<version>${bt-model.version}</version>
 		</dependency>
 		<!--         Embedded Mongodb server -->
-		<dependency>
-			<groupId>de.flapdoodle.embed</groupId>
-			<artifactId>de.flapdoodle.embed.mongo</artifactId>
-		</dependency>
+		<!--		<dependency>-->
+		<!--			<groupId>de.flapdoodle.embed</groupId>-->
+		<!--			<artifactId>de.flapdoodle.embed.mongo</artifactId>-->
+		<!--		</dependency>-->
 
 	</dependencies>
 </project>
