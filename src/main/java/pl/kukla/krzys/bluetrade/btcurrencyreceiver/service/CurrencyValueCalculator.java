@@ -5,10 +5,8 @@ import pl.kukla.krzys.bluetrade.btmodel.CurrencyDto;
 /**
  * @author Krzysztof Kukla
  */
-public interface CurrencyReceiverService {
+public interface CurrencyValueCalculator {
 
-    CurrencyDto getCurrency(String base);
-
-    CurrencyDto getValueByCurrency(String currency);
+    CurrencyDto calculate(CurrencyDto currencyDto);
 
 }
