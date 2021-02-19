@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>pl.kukla.krzys.bluetrade</groupId>
 		<artifactId>bt-common-bom</artifactId>
-		<version>00.05.14-SNAPSHOT</version>
+		<version>00.05.23-SNAPSHOT</version>
 	</parent>
 
 	<artifactId>bt-currency-receiver</artifactId>
