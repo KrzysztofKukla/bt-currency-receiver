@@ -9,6 +9,6 @@ public interface CurrencyReceiverService {
 
     CurrencyDto getCurrency(String base);
 
-    CurrencyDto getValueByCurrency(String currency);
+    CurrencyDto getValueByBase(String base);
 
 }

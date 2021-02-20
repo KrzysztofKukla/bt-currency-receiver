@@ -26,7 +26,7 @@ public class CurrencyReceiverFacade implements CurrencyReceiverService {
     }
 
     @Override
-    public CurrencyDto getValueByCurrency(String base) {
+    public CurrencyDto getValueByBase(String base) {
         CurrencyDto currencyDto = convertBaseToCurrencyDto(base);
         return currencyValueCalculator.calculate(currencyDto);
 

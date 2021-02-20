@@ -29,7 +29,7 @@ public class CurrencyController {
     @GetMapping("/value/{base}")
     public CurrencyDto getValueByCurrency(@PathVariable String base) {
         log.info("Getting value by {} currency", base);
-        return currencyReceiverService.getValueByCurrency(base);
+        return currencyReceiverService.getValueByBase(base);
     }
 
     @GetMapping("/latest")
