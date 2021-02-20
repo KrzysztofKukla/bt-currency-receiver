@@ -11,18 +11,18 @@ import org.springframework.web.bind.annotation.RestController;
 import pl.kukla.krzys.bluetrade.btcurrencyreceiver.service.CurrencyReceiverService;
 import pl.kukla.krzys.bluetrade.btmodel.CurrencyDto;
 
-import static pl.kukla.krzys.bluetrade.btcurrencyreceiver.web.CurrencyController.API_V1_URL;
+import static pl.kukla.krzys.bluetrade.btcurrencyreceiver.web.CurrencyController.API_V1_CURRENCY_URL;
 
 /**
  * @author Krzysztof Kukla
  */
 
 @RestController
-@RequestMapping(API_V1_URL)
+@RequestMapping(API_V1_CURRENCY_URL)
 @Slf4j
 @RequiredArgsConstructor
 public class CurrencyController {
-    static final String API_V1_URL = "/api/v1";
+    static final String API_V1_CURRENCY_URL = "/api/v1/currency";
 
     private final CurrencyReceiverService currencyReceiverService;
 
