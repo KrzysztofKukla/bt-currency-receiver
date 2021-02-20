@@ -3,7 +3,4 @@ currency:
     api:
       url: https://api.exchangeratesapi.io
 
-bt:
-  currency-converter:
-    url: http://localhost:8084
 

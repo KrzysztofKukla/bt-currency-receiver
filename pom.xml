@@ -9,13 +9,13 @@
 	</parent>
 
 	<artifactId>bt-currency-receiver</artifactId>
-	<version>00.00.02-SNAPSHOT</version>
+	<version>00.00.03-SNAPSHOT</version>
 	<name>bt-currency-receiver</name>
 
 	<description>Service allows to receive values</description>
 
 	<properties>
-		<bt-model.version>00.01.10-SNAPSHOT</bt-model.version>
+		<bt-model.version>00.01.18-SNAPSHOT</bt-model.version>
 	</properties>
 
 	<dependencies>
